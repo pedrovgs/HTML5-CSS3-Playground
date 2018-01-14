@@ -4,6 +4,18 @@ HTML5 & CSS3 Playground created just for learning purposes :smiley:
 
 <img alt="HTML5/CSS3" src="./art/logo.png" width="200"/>
 
+## Style lint
+
+As this repository contains just HTML5 and CSS3 code we decided to add a powerful linter named [Stylelint](https://github.com/stylelint/stylelint) you can easily run by executing the following commands:
+
+```
+yarn lintCSS # Evaluates if the CSS code contains any lint error.
+yarn lintHTML # Evaluates if the HTML code contains any lint error.
+yarn lint # Evaluates if the CSS or the HTML code contains any lint error.
+```
+
+The linter configuration can be found in the file named ``.stylelintrc``. It's simple extension of the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) configuration.
+
 Developed By
 ------------
 

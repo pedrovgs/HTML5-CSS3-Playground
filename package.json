@@ -1,0 +1,17 @@
+{
+  "name": "HTML5-CSS3-playground",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "git@github.com:pedrovgs/HTML5-CSS3-Playground.git",
+  "author": "Pedro Vicente Gómez Sánchez <pedro@gokarumi.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0"
+  },
+  "scripts": {
+    "lintCSS": "stylelint src/**/*.css",
+    "lintHTML": "stylelint src/**/*.html",
+    "lint": "yarn lintCSS lintHTML"
+  }
+}

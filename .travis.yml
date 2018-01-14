@@ -1,0 +1,6 @@
+sudo: required
+cache:
+  yarn: true
+script:
+  - yarn install
+  - yarn lint
