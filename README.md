@@ -2,7 +2,7 @@
 
 HTML5 & CSS3 Playground created just for learnign purposes :smiley:
 
-<img alt="Follow me on Twitter" src="./logo.png" width="200"/>
+<img alt="HTML5/CSS3" src="./art/logo.png" width="200"/>
 
 Developed By
 ------------
