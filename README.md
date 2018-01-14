@@ -4,6 +4,16 @@ HTML5 & CSS3 Playground created just for learning purposes :smiley:
 
 <img alt="HTML5/CSS3" src="./art/logo.png" width="200"/>
 
+# Playing in this playground
+
+As this repository is thought to just learn something about HTML5 & CSS3 we've configured [yarn](https://yarnpkg.com/en/) and added some nice development dependencies to be able to make our life when changing some of the code. If you want to just start a HTTP server showing the content of this page in your default browser you just need to execute:
+
+```
+yarn start
+```
+
+This command will create a simple HTTP server using the ``src`` folder as the root path. Under the hood this command is using [live-server](https://github.com/tapio/live-server) to refresh your browser everytime you change part of the HTML or CSS code so you don't have to press CMD+R after every change :smiley:
+
 ## Style lint
 
 As this repository contains just HTML5 and CSS3 code we decided to add a powerful linter named [Stylelint](https://github.com/stylelint/stylelint) you can easily run by executing the following commands:
