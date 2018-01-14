@@ -6,22 +6,22 @@ HTML5 & CSS3 Playground created just for learning purposes :smiley:
 
 # Playing in this playground
 
-As this repository is thought to just learn something about HTML5 & CSS3 we've configured [yarn](https://yarnpkg.com/en/) and added some nice development dependencies to be able to make our life when changing some of the code. If you want to just start a HTTP server showing the content of this page in your default browser you just need to execute:
+As this repository is thought to just learn something about HTML5 & CSS3 we've configured [yarn](https://yarnpkg.com/en/) and added some nice development dependencies to be able to make our life easier when writing some code. **If you want to just start a HTTP server showing the content of this page in your default browser you just need to execute:**
 
 ```
 yarn start
 ```
 
-This command will create a simple HTTP server using the ``src`` folder as the root path. Under the hood this command is using [live-server](https://github.com/tapio/live-server) to refresh your browser everytime you change part of the HTML or CSS code so you don't have to press CMD+R after every change :smiley:
+This command will create a simple HTTP server using the ``src`` folder as the root path. Under the hood this command is using **[live-server](https://github.com/tapio/live-server) to refresh your browser everytime you change part of the HTML or CSS code** so you don't have to press CMD+R after every change :smiley:
 
 ## Style lint
 
 As this repository contains just HTML5 and CSS3 code we decided to add a powerful linter named [Stylelint](https://github.com/stylelint/stylelint) you can easily run by executing the following commands:
 
 ```
-yarn lintCSS # Evaluates if the CSS code contains any lint error.
-yarn lintHTML # Evaluates if the HTML code contains any lint error.
-yarn lint # Evaluates if the CSS or the HTML code contains any lint error.
+yarn lintCSS # Checks if the CSS code contains any lint error.
+yarn lintHTML # Checks if the HTML code contains any lint error.
+yarn lint # Checks if the CSS or the HTML code contains any lint error.
 ```
 
 The linter configuration can be found in the file named ``.stylelintrc``. It's simple extension of the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) configuration.
