@@ -1,6 +1,6 @@
 # HTML5 & CSS3 Playground
 
-HTML5 & CSS3 Playground created just for learnign purposes :smiley:
+HTML5 & CSS3 Playground created just for learning purposes :smiley:
 
 <img alt="HTML5/CSS3" src="./art/logo.png" width="200"/>
 
