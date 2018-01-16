@@ -14,6 +14,7 @@
     "lintCSS": "stylelint src/**/*.css",
     "lintHTML": "stylelint src/**/*.html",
     "lint": "yarn lintCSS lintHTML",
-    "startBlogPostExample": "yarn live-server src/simple_blog_post_example"
+    "startBlogPostExample": "yarn live-server src/simple_blog_post_example",
+    "startOmnifood": "yarn live-server src/omnifood"
   }
 }
