@@ -11,9 +11,12 @@
     "stylelint-config-standard": "^18.0.0"
   },
   "scripts": {
-    "lintCSS": "stylelint src/**/*.css",
-    "lintHTML": "stylelint src/**/*.html",
+    "lintCSS": "stylelint 'src/**/*.css'",
+    "lintHTML": "stylelint 'src/**/*.html'",
     "lint": "yarn lintCSS lintHTML",
+    "fixCSS": "stylelint 'src/**/*.css' --fix",
+    "fixHTML": "stylelint 'src/**/*.html' --fix",
+    "fixLint": "yarn fixCSS fixHTML",
     "startBlogPostExample": "yarn live-server src/simple_blog_post_example",
     "startOmnifood": "yarn live-server src/omnifood"
   }

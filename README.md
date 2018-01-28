@@ -26,6 +26,8 @@ yarn lint # Checks if the CSS or the HTML code contains any lint error.
 
 The linter configuration can be found in the file named ``.stylelintrc``. It's simple extension of the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) configuration.
 
+You can automatically fix your CSS errors by executing ``yarn fixCSS``, your HTML errors using the command ``yarn fixHTML`` or fix them all by just executing ``yarn fixLint``.
+
 Developed By
 ------------
 
