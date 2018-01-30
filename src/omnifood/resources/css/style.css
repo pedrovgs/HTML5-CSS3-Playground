@@ -169,6 +169,14 @@ h2::after {
   border-bottom: 2px solid #e67e22;
 }
 
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+
+.section-meals {
+  padding: 0;
+}
+
 .meals-showcase {
   list-style: none;
   width: 100%;
@@ -183,8 +191,18 @@ h2::after {
 .meal-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
+  background-color: #000;
 }
 
 .meal-photo img {
+  opacity: 0.7;
   width: 100%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.3);
 }
