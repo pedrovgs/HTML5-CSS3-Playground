@@ -9,7 +9,9 @@ HTML5 & CSS3 Playground created just for learning purposes :smiley:
 As this repository is thought to just learn something about HTML5 & CSS3 we've configured [yarn](https://yarnpkg.com/en/) and added some nice development dependencies to be able to make our life easier when writing some code. **If you want to just start a HTTP server showing the content of this page in your default browser you just need to execute:**
 
 ```
-yarn start
+yarn start # You can navigate using the src folder as the root path.
+yarn startBlogPostExample # Users "blog post playground" as index;
+yarn startOmnifood # Uses "omnifood playground" as index.
 ```
 
 This command will create a simple HTTP server using the ``src`` folder as the root path. Under the hood this command is using **[live-server](https://github.com/tapio/live-server) to refresh your browser everytime you change part of the HTML or CSS code** so you don't have to press CMD+R after every change :smiley:

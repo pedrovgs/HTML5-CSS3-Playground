@@ -17,6 +17,7 @@
     "fixCSS": "stylelint 'src/**/*.css' --fix",
     "fixHTML": "stylelint 'src/**/*.html' --fix",
     "fixLint": "yarn fixCSS fixHTML",
+    "start": "yarn live-server src",
     "startBlogPostExample": "yarn live-server src/simple_blog_post_example",
     "startOmnifood": "yarn live-server src/omnifood"
   }
