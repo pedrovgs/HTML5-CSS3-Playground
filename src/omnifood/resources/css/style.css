@@ -18,6 +18,14 @@ html {
   margin-right: auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/hero.jpg");
   background-size: cover;
@@ -33,15 +41,61 @@ header {
   transform: translate(-50%, -50%);
 }
 
-h1 {
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 240%;
-  color: white;
+h1,
+h2,
+h3 {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1px;
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 240%;
   word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2::after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
 }
 
 .btn:link,
