@@ -2,5 +2,6 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "at-rule-empty-line-before": null
-  }
+  },
+  "ignoreFiles": "src/omnifood/vendors/**/*"
 }
