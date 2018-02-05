@@ -12,6 +12,18 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix::after {
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+
 .row {
   max-width: 1140px;
   margin-left: auto;
@@ -191,7 +203,7 @@ h2::after {
 .meal-photo {
   width: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #000;
 }
 
@@ -202,7 +214,54 @@ h2::after {
   transition: transform 0.5s, opacity 0.5s;
 }
 
+.btn-app img {
+  height: 50px;
+  width: auto;
+}
+
 .meal-photo img:hover {
   opacity: 1;
   transform: scale(1.3);
+}
+
+.section-steps {
+  background-color: #f4f4ff;
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+
+.steps-box:last-child {
+  text-align: left;
+  padding-left: 3%;
+  margin-top: 70px;
+}
+
+.app-screen {
+  width: 40%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step div {
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  display: inline-block;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 80px;
 }
